@@ -1,5 +1,9 @@
 # deploy_qualys_s3
 
+# License
+THIS SCRIPT IS PROVIDED TO YOU "AS IS." TO THE EXTENT PERMITTED BY LAW, QUALYS HEREBY DISCLAIMS ALL WARRANTIES AND LIABILITY FOR THE PROVISION OR USE OF THIS SCRIPT. IN NO EVENT SHALL THESE SCRIPTS BE DEEMED TO BE CLOUD SERVICES AS PROVIDED BY QUALYS
+
+
 # Summary
 First deploy capability is for RPM based Linux. Followed by Debian based Linux and Windows w/powershell. This script will query the
 EC2 Instance metadata endpoint for an assumed role to access a S3 bucket and download the Qualys Cloud Agent installer.
